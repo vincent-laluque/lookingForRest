@@ -1,0 +1,174 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Picture24": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 920,
+					"height": 620,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/library/veryGray.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"OBJ_BUT_CAPTURE": {
+					"type": "button",
+					"top": 10,
+					"left": 10,
+					"width": 96,
+					"height": 26,
+					"class": "COM_12_BOLD",
+					"fontWeight": "bold",
+					"focusable": false,
+					"text": "Capture",
+					"icon": "/RESOURCES/images/magnifying-glass.png",
+					"textPlacement": "right",
+					"style": "roundedBevel",
+					"method": "ObjectMethods/OBJ_BUT_CAPTURE.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"OBJ_BUT_STOP": {
+					"type": "button",
+					"top": 10,
+					"left": 112,
+					"width": 96,
+					"height": 26,
+					"class": "COM_12_BOLD",
+					"fontWeight": "bold",
+					"focusable": false,
+					"text": "Stop",
+					"icon": "/RESOURCES/images/close-red-square.png",
+					"textPlacement": "right",
+					"style": "roundedBevel",
+					"method": "ObjectMethods/OBJ_BUT_STOP.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"OBJ_BUT_CLEAR": {
+					"type": "button",
+					"top": 10,
+					"left": 214,
+					"width": 96,
+					"height": 26,
+					"class": "COM_12_BOLD",
+					"fontWeight": "bold",
+					"focusable": false,
+					"text": "Clear",
+					"icon": "/RESOURCES/images/eraser.png",
+					"textPlacement": "right",
+					"style": "roundedBevel",
+					"method": "ObjectMethods/OBJ_BUT_CLEAR.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"OBJ_LOG": {
+					"type": "listbox",
+					"top": 42,
+					"left": 10,
+					"width": 900,
+					"height": 568,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"focusable": false,
+					"hideFocusRing": true,
+					"movableRows": false,
+					"dataSource": "CoORDARequest",
+					"selectedItemsSource": "Form:C1466.selectedElements",
+					"selectionMode": "single",
+					"scrollbarHorizontal": "automatic",
+					"fill": "transparent",
+					"fontFamily": "Verdana",
+					"fontSize": 9,
+					"borderStyle": "dotted",
+					"method": "ObjectMethods/OBJ_LOG.4dm",
+					"events": [
+						"onClick",
+						"onDoubleClick",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onSelectionChange",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onMouseMove",
+						"onAlternateClick",
+						"onBeforeDataEntry",
+						"onHeaderClick",
+						"onAfterEdit"
+					],
+					"columns": []
+				},
+				"OBJ_ASYNCHRO": {
+					"type": "spinner",
+					"top": 8,
+					"left": 874,
+					"width": 34,
+					"height": 31,
+					"sizingX": "move",
+					"dataSource": "thermoASynchro"
+				},
+				"OBJ_BUT_CLIP": {
+					"type": "button",
+					"top": 10,
+					"left": 319,
+					"width": 96,
+					"height": 26,
+					"class": "COM_12_BOLD",
+					"fontWeight": "bold",
+					"focusable": false,
+					"text": "Copy urls",
+					"icon": "var:",
+					"textPlacement": "right",
+					"style": "roundedBevel",
+					"method": "ObjectMethods/OBJ_BUT_CLIP.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}

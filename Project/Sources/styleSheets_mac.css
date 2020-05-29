@@ -1,0 +1,16 @@
+.COM_12_BOLD {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.COM_12_PLAIN {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.default {
+	font-family: Lucida Grande;
+	font-size: 13px;
+}
+
