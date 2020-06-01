@@ -5,7 +5,7 @@
 This component is a tool to visualise REST exchanges between 4D Server and 4D Client
 
 This component is intended to be used with 4D v18
-This component is provided with a 4D project form (lookingForRest.4DProject) with all sources available.
+This component is provided in a 4D project form (lookingForRest.4DProject) with all sources available.
 
 
 **Purpose of this component**
