@@ -36,7 +36,7 @@ Unique sequence number of the ORDA request, duration of the request, request url
 
 The dataStore.*getRequestLog* member method is used every second to refresh the content of the ListBox displaying the ORDA requests.
 
-The « Copy » button will copy in the clipboard all the « urls » informations loaded in the ListBox during the latest or current recording of ORDA requests.
+The « Copy » button will copy in the clipboard all the « urls » information loaded in the ListBox during the latest or current recording of ORDA requests.
 
 For the « Clear » button to be used, the logging process needs to be stopped. The « Clear » button will erase all information previously loaded in the ListBox.
 
