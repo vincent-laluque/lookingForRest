@@ -2,7 +2,7 @@
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="lookingForRest" uuid="0FC461282F8346C1A6DCFC4D869093F8" collation_locale="fr">
 	<schema name="DEFAULT_SCHEMA"/>
-	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="lookingForRest" structure_file_name="lookingForRest" data_file_path=":lookingForRest.4DD">
+	<base_extra package_name="lookingForRest" structure_file_name="lookingForRest" data_file_path=":lookingForRest.4DD">
 		<journal_file journal_file_enabled="true"/>
 	</base_extra>
 </base>
